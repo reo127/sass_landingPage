@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.f {
+    display: flex;
+}
+
+.ac {
+    align-items: center;
+}
+
+.j-sb {
+    justify-content: space-between;
+}
+
+.j-sa {
+    justify-content: space-around;
+}
+
+.tw {
+    color: #fff;
+}
+
+.tb {
+    color: #111;
+}
+
+.tg {
+    color: #333;
+}
+
+/* ------------------------------------- */
+/* ------------------ Header Section ------------------- */
+/* ------------------------------------- */
+
+header {
+    background-color: #5A20CB;
+}
+
+nav {
+    margin: 2rem 8rem;
+}
+
+nav>ul>li>a {
+    all: unset;
+    margin: 0rem 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+.action:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #8D3DAF;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.action {
+    color: #35BDD0;
+}
+
+.btn {
+    all: unset;
+    background: #35BDD0;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.hero {
+    margin: 4rem 10rem;
+}
+
+.hero-right {
+    float: left;
+    max-width: 36rem;
+    margin-top: 6rem;
+}
+
+.hero-right > h1 {
+    color: #fff;
+    font-size: clamp(1.5rem, 5vw, 4.5rem);
+}
+
+.hero-right > p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+.hero > img {
+    max-width: 50rem;
+    float: right;
+}
+
+
+/* ------------------------------------- */
+/* ------------------ Details Section ------------------- */
+/* ------------------------------------- */
+
+
+.details {
+    margin: 2rem 6rem;
+    margin-top: 8rem;
+}
+
+.details > img {
+    max-width: 50rem;
+    float: left;
+}
+
+.details_right {
+    float: right;
+    max-width: 40rem;
+}
+
+.details_right > h1 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    margin-top: 5rem;
+}
+
+.right_bottom > h1 {
+    font-size: clamp(1.5rem, 3vw, 1.8rem);
+    margin-top: 1.2rem;
+}
+
+.right_bottom:nth-of-type(1) {
+    margin-top: 4rem;
+}
+
+.right_bottom > p {
+    color: #333;
+    max-width: 31rem;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    margin-left: 2rem;
+
+}
+
+
+/* ------------------------------------- */
+/* ------------------ Details Section ------------------- */
+/* ------------------------------------- */
+
+.feature {
+
+}
+
+.feature > h1 {
+    text-align: center;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    margin-bottom: 3rem;
+}
+
+.card {
+    max-width: 17rem;
+    box-shadow: 5px 5px 11px 0px #000;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    min-width: 12rem;
+    margin-top: 1rem;
+}
+
+.img_div {
+    width: 9rem;
+    background: #f2f2f2;
+    padding: 2rem;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards {
+    padding: 4rem 8rem;
+    flex-wrap: wrap;
+}
+
+.card_text {
+    margin-top: 2rem;
+}
+
+.card_active {
+    background-color: #5A20CB;
+    border-radius: 15px;
+    padding: 1rem 0rem;
+}
+
+.card_text > h1 {
+
+}
+
+.card_text > p {
+
+}
